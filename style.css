@@ -1,0 +1,146 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+	line-height: 1.2;
+	padding: 20px 0;
+	color: white;
+	margin: 0;
+	background-color: rgb(33, 158, 188);
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#winningColor {
+	font-size: 90px;
+}
+
+#navbar {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.active {
+	color: white;
+	background-color: rgb(33, 158, 188);
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1.2;
+	height: 100%;
+	color: rgb(33, 158, 188);
+}
+
+button:hover {
+	color: white;
+	background-color: rgb(33, 158, 188);
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+#container {
+	margin: 20px auto;
+	width: 50%;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20%;
+}
+
+/*foot tatt fra forrige prosjekt (reisebloggen)*/
+.foot{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(33, 158, 188);
+    margin-top: 60%;
+}
+
+.contact{
+	color: white;;
+}
+
+.fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+	color: white;
+}
+
+.fas{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+	color: white;
+}
+
+.fab:hover{
+	color: rgb(142, 202, 230)
+}
+
+.fas:hover{
+	color: rgb(142, 202, 230);
+}
+
+.inspo{
+	color: rgb(2, 48, 71);	
+}
+
+.inspo:hover{
+	color: rgb(142, 202, 230);
+}
+
+
+@media screen and (max-width:800px){
+
+	#winningColor{
+		font-size: 40px;
+	}
+
+	button{
+		font-size: 14px;
+	}
+	
+	#container{
+		width: 90%;
+		margin-bottom: 25%;
+	}
+
+	.fab{
+		padding: 10px;
+		font-size: 30px;
+		width: 50px;
+		padding-bottom: 20px;
+	}
+	
+	.fas{
+		padding: 10px;
+		font-size: 30px;
+		width: 50px;
+		padding-bottom: 20px;
+	}
+
+
+}
